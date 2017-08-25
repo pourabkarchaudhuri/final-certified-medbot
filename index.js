@@ -134,8 +134,8 @@ function sayConditionInquiry(intent, session, callback){
           headers:
           { 'postman-token': '20cd3cf6-7a8e-9e62-3405-9603fd782d59',
             'cache-control': 'no-cache',
-            'app-id': 'd4f32ee4',
-            'app-key': '78a4f3c44ee2ba85ca74c6fdee95828d',
+            'app-id': '03d4fd34',
+            'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
             'content-type': 'application/json' } };
 
             request(options,conditionInquirySlot,function (error, response, body) {
@@ -246,7 +246,7 @@ function sayTriggerDiagnosis(intent, session, callback){
     console.log("TRIGGER DIAGNOSIS INTENT TRIGGERED");
     const sessionAttributes = {};
     const cardTitle = 'Triggered Diagnosis Triggered!';
-    const speechOutput = '<speak>Tell me your gender type.</speak>';
+    const speechOutput = '<speak>Can you please tell me your gender type?</speak>';
     const repromptText = '<speak>Are you there? Speak up.</speak>';
     const shouldEndSession = false;
     //':ask' mode
@@ -272,7 +272,7 @@ function sayDiagnosisSexInput(intent, session, callback){
 
                 const sessionAttributes = {};
                 const cardTitle = 'Input Sex for Diagnosis Triggered!';
-                const speechOutput = '<speak>Now tell me your age.</speak>';
+                const speechOutput = '<speak>Okay. Now kindly tell me your age.</speak>';
                 const repromptText = '<speak>Are you there? Just say male or female.</speak>';
                 const shouldEndSession = false;
                 //':ask' mode
@@ -319,7 +319,7 @@ function sayDiagnosisAgeInput(intent, session, callback){
 
           const sessionAttributes = {};
           const cardTitle = 'Input Age for Diagnosis Triggered!';
-          const speechOutput = '<speak>Start by giving one symptom that you are facing. I will ask you some questions if I recognise the symptom. Answer with yes or no.</speak>';
+          const speechOutput = '<speak>You may start by giving one symptom that you are facing. I will ask you some questions if I recognise the symptom. Answer with yes or no.</speak>';
           const repromptText = '<speak>Tell me a symptom like, I have a severe headache.</speak>';
           const shouldEndSession = false;
           //':ask' mode
@@ -332,7 +332,7 @@ function sayDiagnosisAgeInput(intent, session, callback){
 
         const sessionAttributes = {};
         const cardTitle = 'Input Age for Diagnosis Triggered!';
-        const speechOutput = '<speak>You can\'t be zero years old. Try repeating with a proper age number.</speak>';
+        const speechOutput = '<speak>You can\'t be zero years old. Please Try repeating with a proper age number.</speak>';
         const repromptText = '<speak>Just give me your proper age or say, I am this many years old.</speak>';
         const shouldEndSession = false;
         //':ask' mode
@@ -382,8 +382,8 @@ function saySymptom(intent, session, callback){
     headers:
     { 'postman-token': '785d8d42-c9fd-b137-d1da-e44cfa4d64f1',
      'cache-control': 'no-cache',
-     'app-id': 'd4f32ee4',
-     'app-key': '78a4f3c44ee2ba85ca74c6fdee95828d',
+     'app-id': '03d4fd34',
+     'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
      'content-type': 'application/json' },
      body: { text: global.diagnosisSymptomSlot, include_tokens: false },
      json: true };
@@ -482,8 +482,8 @@ function processSymptom(intent, session, callback){
     headers:
     { 'postman-token': 'c85c7ea4-fc05-cd5c-2936-d20592218957',
       'cache-control': 'no-cache',
-      'app-id': 'd4f32ee4',
-      'app-key': '78a4f3c44ee2ba85ca74c6fdee95828d',
+      'app-id': '03d4fd34',
+      'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
       'content-type': 'application/json' },
       body: buildBody,
       json: true };
@@ -637,8 +637,8 @@ function sayFinalDiagnosis(intent, session, callback){
     headers:
     { 'postman-token': '20cd3cf6-7a8e-9e62-3405-9603fd782d59',
       'cache-control': 'no-cache',
-      'app-id': 'd4f32ee4',
-      'app-key': '78a4f3c44ee2ba85ca74c6fdee95828d',
+      'app-id': '03d4fd34',
+      'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
       'content-type': 'application/json' } };
 
       request(options,function (error, response, body) {
