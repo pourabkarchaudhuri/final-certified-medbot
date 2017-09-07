@@ -134,8 +134,8 @@ function sayConditionInquiry(intent, session, callback){
           headers:
           { 'postman-token': '20cd3cf6-7a8e-9e62-3405-9603fd782d59',
             'cache-control': 'no-cache',
-            'app-id': '03d4fd34',
-            'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
+            'app-id': '95e202a2',
+            'app-key': '25ae4faaa522f62101ab759d558dff95',
             'content-type': 'application/json' } };
 
             request(options,conditionInquirySlot,function (error, response, body) {
@@ -382,8 +382,8 @@ function saySymptom(intent, session, callback){
     headers:
     { 'postman-token': '785d8d42-c9fd-b137-d1da-e44cfa4d64f1',
      'cache-control': 'no-cache',
-     'app-id': '03d4fd34',
-     'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
+     'app-id': '95e202a2',
+     'app-key': '25ae4faaa522f62101ab759d558dff95',
      'content-type': 'application/json' },
      body: { text: global.diagnosisSymptomSlot, include_tokens: false },
      json: true };
@@ -482,8 +482,8 @@ function processSymptom(intent, session, callback){
     headers:
     { 'postman-token': 'c85c7ea4-fc05-cd5c-2936-d20592218957',
       'cache-control': 'no-cache',
-      'app-id': '03d4fd34',
-      'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
+      'app-id': '95e202a2',
+      'app-key': '25ae4faaa522f62101ab759d558dff95',
       'content-type': 'application/json' },
       body: buildBody,
       json: true };
@@ -637,8 +637,8 @@ function sayFinalDiagnosis(intent, session, callback){
     headers:
     { 'postman-token': '20cd3cf6-7a8e-9e62-3405-9603fd782d59',
       'cache-control': 'no-cache',
-      'app-id': '03d4fd34',
-      'app-key': '97fdf41e07745fe24dc8a7f8dfdad177',
+      'app-id': '95e202a2',
+      'app-key': '25ae4faaa522f62101ab759d558dff95',
       'content-type': 'application/json' } };
 
       request(options,function (error, response, body) {
